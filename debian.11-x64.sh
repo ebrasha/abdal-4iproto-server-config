@@ -9,7 +9,7 @@ unzip abdal-4iproto-server-config.zip
 rm -f abdal-4iproto-server-config.zip
 cd abdal-4iproto-server-config
 chmod +x  Abdal4iProtoServerConfig
-rm -f  /usr/bin/Abdal4iProtoServerConfig
-ln -s Abdal4iProtoServerConfig   /usr/bin/
+rm -f  /usr/local/bin/Abdal4iProtoServerConfig
+ln -s Abdal4iProtoServerConfig   /usr/local/bin
 
 echo Abdal 4iProto Server Config installed successfully....
