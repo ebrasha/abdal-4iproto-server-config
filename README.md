@@ -5,5 +5,5 @@ The Server Version of Abdal 4iProto
 
 #### برای Debian ورژن 8 به بالا 
 ```
-bash <(curl -Ls  https://raw.githubusercontent.com/abdal-security-group/persian-x-ui/main/debianx64-installer.sh)
+bash <(curl -Ls  https://raw.githubusercontent.com/ebrasha/abdal-4iproto-server-config/main/debian.11-x64.sh)
 ```
