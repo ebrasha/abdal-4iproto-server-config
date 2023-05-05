@@ -21,14 +21,49 @@ installer() {
   echo -e "${yellow}9. fedora.37-x64${plain}"
 
   read os_selector
-
-  if [ $os_selector -eq "1"  ]; then
-      echo "Debian"
-      exit 1
+  #1. debian.11-x64
+  if [ $os_selector -eq "1" ]; then
+    os_command="apt"
+    url_zip_file="https://github.com/ebrasha/abdal-4iproto-server-config/releases/download/v4/abdal-4iproto-server-config-debian.11-x64.zip"
   fi
 
-  apt update
-  apt install wget curl tar zip unzip -y
+
+  if [ $os_selector -eq "1" ]; then
+    os_command="apt"
+    url_zip_file="https://github.com/ebrasha/abdal-4iproto-server-config/releases/download/v4/abdal-4iproto-server-config-debian.10-x64.zip"
+  fi
+
+
+  if [ $os_selector -eq "1" ]; then
+    os_command="apt"
+    url_zip_file=""
+  fi
+
+
+  if [ $os_selector -eq "1" ]; then
+    os_command="apt"
+    url_zip_file=""
+  fi
+
+
+  if [ $os_selector -eq "1" ]; then
+    os_command="apt"
+    url_zip_file=""
+  fi
+
+
+  if [ $os_selector -eq "1" ]; then
+    os_command="apt"
+    url_zip_file=""
+  fi
+
+
+
+
+
+
+  $os_command update
+  $os_command install wget curl tar zip unzip -y
   cd /usr/local/
   wget -N --no-check-certificate -O /usr/local/abdal-4iproto-server-config.zip ${url_zip_file}
   unzip /usr/local/abdal-4iproto-server-config.zip
