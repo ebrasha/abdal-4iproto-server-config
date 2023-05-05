@@ -25,36 +25,31 @@ installer() {
   if [ $os_selector -eq "1" ]; then
     os_command="apt"
     url_zip_file="https://github.com/ebrasha/abdal-4iproto-server-config/releases/download/v4/abdal-4iproto-server-config-debian.11-x64.zip"
-  fi
 
+    $os_command update
+    $os_command install wget curl tar zip unzip -y
+    cd /usr/local/
+    wget -N --no-check-certificate -O /usr/local/abdal-4iproto-server-config.zip ${url_zip_file}
+    unzip /usr/local/abdal-4iproto-server-config.zip
+    cd /usr/local/abdal-4iproto-server-config
+    chmod +x Abdal4iProtoServerConfig
+    rm -f /usr/local/bin/Abdal4iProtoServerConfig
+    ln -s /usr/local/abdal-4iproto-server-config/Abdal4iProtoServerConfig /usr/local/bin
+    mkdir /usr/local/abdal-4iproto-server-config-db/
+    rm -f /usr/local/abdal-4iproto-server-config.zip
+
+    echo " "
+    echo -e "${red}---------------------------------${plain}"
+    echo -e "${green}Abdal 4iProto Server Config installed successfully....${plain}"
+    echo -e "${green}If need more options, let us know: Prof.Shafiei@Gmail.com${plain}"
+    echo -e "${red}---------------------------------${plain}"
+
+  fi
 
   if [ $os_selector -eq "2" ]; then
     os_command="apt"
     url_zip_file="https://github.com/ebrasha/abdal-4iproto-server-config/releases/download/v4/abdal-4iproto-server-config-debian.10-x64.zip"
   fi
-
- 
-
-
-
-
-  $os_command update
-  $os_command install wget curl tar zip unzip -y
-  cd /usr/local/
-  wget -N --no-check-certificate -O /usr/local/abdal-4iproto-server-config.zip ${url_zip_file}
-  unzip /usr/local/abdal-4iproto-server-config.zip
-  cd /usr/local/abdal-4iproto-server-config
-  chmod +x Abdal4iProtoServerConfig
-  rm -f /usr/local/bin/Abdal4iProtoServerConfig
-  ln -s /usr/local/abdal-4iproto-server-config/Abdal4iProtoServerConfig /usr/local/bin
-  mkdir /usr/local/abdal-4iproto-server-config-db/
-  rm -f /usr/local/abdal-4iproto-server-config.zip
-
-  echo " "
-  echo -e "${red}---------------------------------${plain}"
-  echo -e "${green}Abdal 4iProto Server Config installed successfully....${plain}"
-  echo -e "${green}If need more options, let us know: Prof.Shafiei@Gmail.com${plain}"
-  echo -e "${red}---------------------------------${plain}"
 
 }
 
