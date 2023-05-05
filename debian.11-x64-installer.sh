@@ -26,12 +26,11 @@ installer() {
     os_command="apt"
     url_zip_file="https://github.com/ebrasha/abdal-4iproto-server-config/releases/download/v4/abdal-4iproto-server-config-debian.11-x64.zip"
 
-    echo $url_zip_file
-    exit  1
+
     $os_command update
     $os_command install wget curl tar zip unzip -y
     cd /usr/local/
-    wget -N --no-check-certificate -O /usr/local/abdal-4iproto-server-config.zip ${url_zip_file}
+    wget -N --no-check-certificate -O /usr/local/abdal-4iproto-server-config.zip $url_zip_file
     unzip /usr/local/abdal-4iproto-server-config.zip
     cd /usr/local/abdal-4iproto-server-config
     chmod +x Abdal4iProtoServerConfig
