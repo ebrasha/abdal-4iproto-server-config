@@ -28,36 +28,12 @@ installer() {
   fi
 
 
-  if [ $os_selector -eq "1" ]; then
+  if [ $os_selector -eq "2" ]; then
     os_command="apt"
     url_zip_file="https://github.com/ebrasha/abdal-4iproto-server-config/releases/download/v4/abdal-4iproto-server-config-debian.10-x64.zip"
   fi
 
-
-  if [ $os_selector -eq "1" ]; then
-    os_command="apt"
-    url_zip_file=""
-  fi
-
-
-  if [ $os_selector -eq "1" ]; then
-    os_command="apt"
-    url_zip_file=""
-  fi
-
-
-  if [ $os_selector -eq "1" ]; then
-    os_command="apt"
-    url_zip_file=""
-  fi
-
-
-  if [ $os_selector -eq "1" ]; then
-    os_command="apt"
-    url_zip_file=""
-  fi
-
-
+ 
 
 
 
