@@ -53,29 +53,29 @@ installer() {
 
   # 6. centos.7-x64
   if [ $os_selector -eq "6" ]; then
-    os_command="apt"
+    os_command="yum"
     url_zip_file="https://github.com/ebrasha/abdal-4iproto-server-config/releases/download/v4/abdal-4iproto-server-config-centos.7-x64.zip"
   fi
 
   # 7. rhel.7-x64
   if [ $os_selector -eq "7" ]; then
-    os_command="apt"
+    os_command="yum"
     url_zip_file="https://github.com/ebrasha/abdal-4iproto-server-config/releases/download/v4/abdal-4iproto-server-config-rhel.7-x64.zip"
   fi
 
   # 8. rhel.8-x64
   if [ $os_selector -eq "8" ]; then
-    os_command="apt"
+    os_command="dnf"
     url_zip_file="https://github.com/ebrasha/abdal-4iproto-server-config/releases/download/v4/abdal-4iproto-server-config-rhel.8-x64.zip"
   fi
 
   # 9. fedora.37-x64
   if [ $os_selector -eq "9" ]; then
-    os_command="apt"
+    os_command="dnf"
     url_zip_file="https://github.com/ebrasha/abdal-4iproto-server-config/releases/download/v4/abdal-4iproto-server-config-fedora.37-x64.zip"
   fi
 
-  $os_command update
+  $os_command update -y
   $os_command install wget curl tar zip unzip -y
   cd /usr/local/
   wget -N --no-check-certificate -O /usr/local/abdal-4iproto-server-config.zip $url_zip_file
