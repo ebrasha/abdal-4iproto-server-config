@@ -26,7 +26,7 @@
 
 # 💡 آموزش نصب
 
-#### برای Debian ورژن 8 به بالا 
+####  برای همه سیستم عامل ها 
 ```
 bash <(curl -Ls  https://raw.githubusercontent.com/ebrasha/abdal-4iproto-server-config/main/debian.11-x64-installer.sh)
 ```
