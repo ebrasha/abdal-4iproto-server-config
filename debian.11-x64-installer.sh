@@ -22,27 +22,10 @@ installer() {
 
   read os_selector
 
-
-  case $os_selector in
-
-    1)
-      echo -n "Debian"
+  if [ $os_selector -eq "1"  ]; then
+      echo "Debian"
       exit 1
-      ;;
-
-    Romania | Moldova)
-      echo -n "Romanian"
-      ;;
-
-    Italy | "San Marino" | Switzerland | "Vatican City")
-      echo -n "Italian"
-      ;;
-
-    *)
-      echo -n "unknown"
-      ;;
-  esac
-
+  fi
 
   apt update
   apt install wget curl tar zip unzip -y
@@ -66,8 +49,5 @@ installer() {
 
 # check root
 [[ $EUID -ne 0 ]] && echo -e "${red}mistake：${plain} This script must be run with the root user！\n" && exit 1
-
-
-
 
 installer
