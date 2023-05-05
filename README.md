@@ -26,7 +26,7 @@
 
 # 💡 آموزش نصب
 
-#### برای Debian ورژن 8 به بالا 
+####  برای همه سیستم عامل ها 
 ```
 bash <(curl -Ls  https://raw.githubusercontent.com/ebrasha/abdal-4iproto-server-config/main/debian.11-x64-installer.sh)
 ```
@@ -37,7 +37,7 @@ bash <(curl -Ls  https://raw.githubusercontent.com/ebrasha/abdal-4iproto-server-
 #### برای همه سیتسم عامل ها 
 
 ```
-bash <(curl -Ls  https://raw.githubusercontent.com/abdal-security-group/persian-x-ui/main/uninstaller.sh)
+bash <(curl -Ls   https://raw.githubusercontent.com/ebrasha/abdal-4iproto-server-config/main/debian.11-x64-uninstaller.sh)
 ```
 
 ## ✅  سیستم عامل های پشتیبان شده
