@@ -1,4 +1,6 @@
 #!/bin/bash
+# this Script Programming by Ebrahim Shfaiei (EbraSha)
+# +98 09022223301
 red='\033[0;31m'
 green='\033[0;32m'
 yellow='\033[0;33m'
