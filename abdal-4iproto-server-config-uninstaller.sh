@@ -4,6 +4,14 @@ green='\033[0;32m'
 yellow='\033[0;33m'
 plain='\033[0m'
 
+# My name is Ebrahim Shafiei (EbraSha).
+# I work as a programmer and cybersecurity professional.
+# I have extensive experience in developing secure software and protecting against cyber threats.
+# I am passionate about staying up-to-date with the latest security trends and technologies to provide the best possible solutions for my clients.
+# Email: prof.shafiei@gmail.com
+# Telegram: https://t.me/ProfShafiei
+# Twitter: https://twitter.com/ProfShafiei
+
 uninstalling() {
   rm -rf /usr/local/abdal-4iproto-server-config
   rm -f /usr/local/bin/Abdal4iProtoServerConfig

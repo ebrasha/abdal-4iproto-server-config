@@ -1,64 +1,69 @@
-# نسخه مدیریت سرور  Abdal 4iProto
+# Abdal 4iProto server management version
+
 ![](https://raw.githubusercontent.com/ebrasha/abdal-4iproto-server-config/main/shot.jpg)
 
-# 🤵 برنامه نویس و توسعه دهنده
-ابراهیم شفیعی
+# 🤵 Programmer
+Ebrahim Shafiei (EbraSha)
 
-ایمیل :  Prof.Shafiei@Gmail.com
+Email :  Prof.Shafiei@Gmail.com
 
-
-# ✨ امکانات 
-- بدون هیچ کد مخرب و جاسوس افزار
-- نصب هوشمند و خودکار
-- نصب پیش نیازها
-- پیکربندی خودکار سرور
-- ساخت حساب کاربری
-- حذف حساب کاربری
-- لیست حساب ها
-- تغییر رمز کاربر
-- رویت زمان ایجاد حساب کابری
-- حذف کننده خودکار
-- کاملا متن باز
+## README Translation
+- [English](README.md)
+- [فارسی](README.fa.md)
 
 
-اگر مثل من به پروژه های آزاد و کمک به مردم جهان علاقه دارید پیام دهید تا با هم جهانی بهتر بسازیم.
+# ✨ Features
+- Without any malicious code and spyware
+- Smart and automatic installation
+- Installation of prerequisites
+- Automatic server configuration
+- Creating a user account
+- Delete Account (User
+- List of accounts
+- Change user password
+- Viewing the time of creating a user account
+- Automatic remover
+- Completely open source
 
 
+If, you are interested in free projects and helping the people of the world, send a message so that we can build a better world together._
+_
 
-# 💡 آموزش نصب
+# 💡 Installation
 
-####  برای همه سیستم عامل ها 
+#### For all operating systems
 ```
 bash <(curl -Ls  https://raw.githubusercontent.com/ebrasha/abdal-4iproto-server-config/main/abdal-4iproto-server-config-installer.sh)
 ```
 
 
-# 💣 آموزش حذف
+# 💣 Clean uninstall
 
-#### برای همه سیتسم عامل ها 
+#### For all operating systems
 
 ```
 bash <(curl -Ls   https://raw.githubusercontent.com/ebrasha/abdal-4iproto-server-config/main/abdal-4iproto-server-config-uninstaller.sh)
 ```
 
-## ✅  سیستم عامل های پشتیبان شده
+## ✅ Supported operating systems
 
+- debian.11-x64
+- debian.11-arm64
+- debian.10-x64
 - ubuntu.22.04-x64
+- ubuntu.22.04-arm64
 - ubuntu.20.04-x64
 - ubuntu.18.04-x64
-- debian.11-x64
-- debian.10-x64
 - centos.7-x64
 - rhel.7-x64
 - rhel.8-x64
 - fedora.37-x64
  
  
- ## ⚠️ سلب مسئولیت قانونی ⚠️
+ ## ⚠️ Legal disclaimer ⚠️
 
-پروژه پروتکل Abdal 4iProto یک تولید بر مبنای امنیت و استفاده صحیح جهت پیشرفت های علمی می باشد ، هرگونه استفاده مخرب از این سیستم خارج از قوانین محلی کشور شما از عهده و مسئولین سازنده و برنامه نویس پروژه و تیم ابدال خارج است . 
-
-## ❤️ کمک ها مالی به پروژه 
+The Abdal 4iProto protocol project is a production based on security and correct use for scientific advancements, any malicious use of this system outside the local laws of your country is beyond the responsibility of the Abdal team.
+## ❤️ Donations to the project 
 
 > USDT:      TKRmTvwkMFdgGrwvDHztLXsKAwK2WEEKUp
 
@@ -66,8 +71,7 @@ bash <(curl -Ls   https://raw.githubusercontent.com/ebrasha/abdal-4iproto-server
 
 > For Iranian People -> MellatBank : 6104-3378-5301-4247
 
-## ❗ گزارش خطا در این پروژه 
+## ❗ Reporting Issues 
 
- اگر باخطایی مواجه شدید لطفاً به Prof.Shafiei@Gmail.com گرازش کنید تا ما در کمترین زمان آن خطا را رفع کنیم
-
+If you are facing a configuration issue or something is not working as you expected to be, please use the Prof.Shafiei@Gmail.com . Issues on GitLab are also welcomed.
 
