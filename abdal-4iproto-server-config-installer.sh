@@ -32,16 +32,7 @@ installer() {
 
   arch=$(arch)
 
-  if [[ $arch == "x86_64" || $arch == "x64" || $arch == "amd64" ]]; then
-    arch="amd64"
-  elif [[ $arch == "aarch64" || $arch == "arm64" ]]; then
-    arch="arm64"
-  elif [[ $arch == "s390x" ]]; then
-    arch="s390x"
-  else
-    arch="amd64"
-    echo -e "${red}Your selected option does not match your processor architecture${arch}${plain}" && exit 1
-  fi
+  
 
   read os_selector
 
@@ -51,7 +42,7 @@ installer() {
     if [[ $arch == "x86_64" || $arch == "x64" || $arch == "amd64" ]]; then
       arch="amd64"
     else
-      echo -e "${red}Your selected option does not match your processor architecture${arch}${plain}" && exit 1
+      echo -e "${red}Your selected option does not match your processor architecture ${arch}${plain}" && exit 1
     fi
 
     os_command="apt"
@@ -64,7 +55,7 @@ installer() {
     if [[ $arch == "aarch64" || $arch == "arm64" ]]; then
       arch="arm64"
     else
-      echo -e "${red}Your selected option does not match your processor architecture${arch}${plain}" && exit 1
+      echo -e "${red}Your selected option does not match your processor architecture ${arch}${plain}" && exit 1
     fi
 
     os_command="apt"
@@ -77,7 +68,7 @@ installer() {
     if [[ $arch == "x86_64" || $arch == "x64" || $arch == "amd64" ]]; then
       arch="amd64"
     else
-      echo -e "${red}Your selected option does not match your processor architecture${arch}${plain}" && exit 1
+      echo -e "${red}Your selected option does not match your processor architecture ${arch}${plain}" && exit 1
     fi
 
     os_command="apt"
@@ -89,7 +80,7 @@ installer() {
     if [[ $arch == "aarch64" || $arch == "arm64" ]]; then
       arch="arm64"
     else
-      echo -e "${red}Your selected option does not match your processor architecture${arch}${plain}" && exit 1
+      echo -e "${red}Your selected option does not match your processor architecture ${arch}${plain}" && exit 1
     fi
 
     os_command="apt"
@@ -101,7 +92,7 @@ installer() {
     if [[ $arch == "x86_64" || $arch == "x64" || $arch == "amd64" ]]; then
       arch="amd64"
     else
-      echo -e "${red}Your selected option does not match your processor architecture${arch}${plain}" && exit 1
+      echo -e "${red}Your selected option does not match your processor architecture ${arch}${plain}" && exit 1
     fi
 
     os_command="apt"
@@ -113,7 +104,7 @@ installer() {
     if [[ $arch == "x86_64" || $arch == "x64" || $arch == "amd64" ]]; then
       arch="amd64"
     else
-      echo -e "${red}Your selected option does not match your processor architecture${arch}${plain}" && exit 1
+      echo -e "${red}Your selected option does not match your processor architecture ${arch}${plain}" && exit 1
     fi
 
     os_command="apt"
@@ -125,7 +116,7 @@ installer() {
     if [[ $arch == "x86_64" || $arch == "x64" || $arch == "amd64" ]]; then
       arch="amd64"
     else
-      echo -e "${red}Your selected option does not match your processor architecture${arch}${plain}" && exit 1
+      echo -e "${red}Your selected option does not match your processor architecture ${arch}${plain}" && exit 1
     fi
     os_command="apt"
     url_zip_file="https://github.com/ebrasha/abdal-4iproto-server-config/releases/download/v4/abdal-4iproto-server-config-ubuntu.18.04-x64.zip"
@@ -136,7 +127,7 @@ installer() {
     if [[ $arch == "x86_64" || $arch == "x64" || $arch == "amd64" ]]; then
       arch="amd64"
     else
-      echo -e "${red}Your selected option does not match your processor architecture${arch}${plain}" && exit 1
+      echo -e "${red}Your selected option does not match your processor architecture ${arch}${plain}" && exit 1
     fi
 
     os_command="yum"
@@ -148,7 +139,7 @@ installer() {
     if [[ $arch == "x86_64" || $arch == "x64" || $arch == "amd64" ]]; then
       arch="amd64"
     else
-      echo -e "${red}Your selected option does not match your processor architecture${arch}${plain}" && exit 1
+      echo -e "${red}Your selected option does not match your processor architecture ${arch}${plain}" && exit 1
     fi
 
     os_command="yum"
@@ -160,7 +151,7 @@ installer() {
     if [[ $arch == "x86_64" || $arch == "x64" || $arch == "amd64" ]]; then
       arch="amd64"
     else
-      echo -e "${red}Your selected option does not match your processor architecture${arch}${plain}" && exit 1
+      echo -e "${red}Your selected option does not match your processor architecture ${arch}${plain}" && exit 1
     fi
 
     os_command="dnf"
@@ -172,7 +163,7 @@ installer() {
     if [[ $arch == "x86_64" || $arch == "x64" || $arch == "amd64" ]]; then
       arch="amd64"
     else
-      echo -e "${red}Your selected option does not match your processor architecture${arch}${plain}" && exit 1
+      echo -e "${red}Your selected option does not match your processor architecture ${arch}${plain}" && exit 1
     fi
 
     os_command="dnf"
