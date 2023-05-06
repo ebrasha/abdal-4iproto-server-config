@@ -196,6 +196,7 @@ installer() {
   echo -e "${red}---------------------------------${plain}"
   echo -e "${green}Abdal 4iProto Server Config installed successfully....${plain}"
   echo -e "${green}If need more options, let us know: Prof.Shafiei@Gmail.com${plain}"
+  echo -e "${yellow}Use the Abdal4iProtoServerConfig command to manage the Abdal 4iProto${plain}"
   echo -e "${red}---------------------------------${plain}"
 
 }
