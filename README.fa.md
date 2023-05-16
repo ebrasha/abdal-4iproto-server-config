@@ -68,7 +68,11 @@ bash <(curl -Ls   https://raw.githubusercontent.com/ebrasha/abdal-4iproto-server
 2. [x] 49602
 3. [x] 49603
 4. [x] 49706
-5. 
+
+# 🧲 پروژه های مرتبط
+1. [Abdal Socks Bridge For Client](https://github.com/ebrasha/abdal-socks-bridge)
+
+
  
  ## ⚠️ سلب مسئولیت قانونی ⚠️
 

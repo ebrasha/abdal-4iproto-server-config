@@ -69,6 +69,10 @@ bash <(curl -Ls   https://raw.githubusercontent.com/ebrasha/abdal-4iproto-server
 3. [x] 49603
 4. [x] 49706
 
+# 🧲 Related projects
+1. [Abdal Socks Bridge For Client](https://github.com/ebrasha/abdal-socks-bridge)
+
+
  ## ⚠️ Legal disclaimer ⚠️
 
 The Abdal 4iProto protocol project is a production based on security and correct use for scientific advancements, any malicious use of this system outside the local laws of your country is beyond the responsibility of the Abdal team.
