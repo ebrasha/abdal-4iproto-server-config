@@ -11,6 +11,9 @@ Email :  Prof.Shafiei@Gmail.com
 - [English](README.md)
 - [فارسی](README.fa.md)
 
+ ## 💎 General purpose
+The 4iProto protocol software server, used for the internet without censorship and privacy protection.
+
 
 # ✨ Features
 - Without any malicious code and spyware
