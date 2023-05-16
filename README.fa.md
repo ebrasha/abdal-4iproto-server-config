@@ -58,7 +58,14 @@ bash <(curl -Ls   https://raw.githubusercontent.com/ebrasha/abdal-4iproto-server
 - rhel.7-x64
 - rhel.8-x64
 - fedora.37-x64
- 
+
+# ⛩️  پورت های مورد نیاز
+
+1. [x] 49601
+2. [x] 49602
+3. [x] 49603
+4. [x] 49706
+5. 
  
  ## ⚠️ سلب مسئولیت قانونی ⚠️
 

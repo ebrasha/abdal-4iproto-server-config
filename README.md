@@ -58,8 +58,14 @@ bash <(curl -Ls   https://raw.githubusercontent.com/ebrasha/abdal-4iproto-server
 - rhel.7-x64
 - rhel.8-x64
 - fedora.37-x64
- 
- 
+
+# ⛩️ Required ports
+
+1. [x] 49601
+2. [x] 49602
+3. [x] 49603
+4. [x] 49706
+
  ## ⚠️ Legal disclaimer ⚠️
 
 The Abdal 4iProto protocol project is a production based on security and correct use for scientific advancements, any malicious use of this system outside the local laws of your country is beyond the responsibility of the Abdal team.
